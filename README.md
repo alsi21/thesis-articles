@@ -22,7 +22,7 @@ This document serves in part as a link to the articles.bib document, in part as 
 | Baple: Backdoor attacks on medical foundational models using prompt learning | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Attack-sam: Towards evaluating adversarial robustness of segment anything model | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | On the robustness of segment anything | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
-
+| Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection | | Prompt injection | Scopus Search 1 | |
 
 ## Scopus Searches
 
