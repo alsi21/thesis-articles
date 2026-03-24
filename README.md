@@ -6,7 +6,7 @@ This document serves in part as a link to the articles.bib document, in part as 
 
 | Title | Relevant | Context | Origin | Reading status |
 | --- | --- | --- | --- | --- |
-| Foundation Models Defining a New Era in Vision: A Survey and Outlook | Yes | Large language models, survey | Scopus Search 1 | Abstract, 1, 6 |
+| Foundation Models Defining a New Era in Vision: A Survey and Outlook | Yes | Large language models, survey | Scopus Search 1 | Abstract, Introduction, Challenges |
 | Intriguing properties of neural networks | | Adversarial attack | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Towards deep learning models resistant to adversarial attacks | | Adversarial attack | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | MixACM: Mixup-based robustness transfer via distillation of activated channel maps | | Adversarial attack | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
@@ -15,6 +15,14 @@ This document serves in part as a link to the articles.bib document, in part as 
 | Red-teaming large-language models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Jailbroken: How Does LLM Safety Training Fail? | | Prompt injection, Jailbreak | Scopus Search 1 | |
 | HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient Multi-Agent Defense | | Prompt injection, Jailbreak, Defense | Customer Suggestion & Interest | |
+| More than you’ve asked for: A comprehensive analysis of novel prompt injection threats to application-integrated large language models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| Are aligned neural networks adversarially aligned? | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| Adversarial prompting for black box foundation models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| Adversarial demonstration attacks on large language models | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| Baple: Backdoor attacks on medical foundational models using prompt learning | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| Attack-sam: Towards evaluating adversarial robustness of segment anything model | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+| On the robustness of segment anything | | Prompt injection, Visual Language Model | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
+
 
 ## Scopus Searches
 
