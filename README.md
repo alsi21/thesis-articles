@@ -14,7 +14,7 @@ This document serves in part as a link to the articles.bib document, in part as 
 | Ignore previous prompt: Attack techniques for language models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Red-teaming large-language models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Jailbroken: How Does LLM Safety Training Fail? | | Prompt injection, Jailbreak | Scopus Search 1 | |
-| HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient Multi-Agent Defense | | Prompt injection, Jailbreak, Defense | Customer Suggestion & Interest | |
+| HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient Multi-Agent Defense | Yes | Prompt injection, Multi-turn jailbreak, Defense | Customer Suggestion & Interest | Abstract, Figures, Conclusion |
 | More than you’ve asked for: A comprehensive analysis of novel prompt injection threats to application-integrated large language models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Are aligned neural networks adversarially aligned? | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
 | Adversarial prompting for black box foundation models | | Prompt injection | Foundation Models Defining a New Era in Vision: A Survey and Outlook | |
