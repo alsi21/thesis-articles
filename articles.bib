@@ -47,3 +47,177 @@ Articles will be put here...
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2601.04034}, 
 }
+
+
+@article{gulyamov_prompt_2026,
+	title = {Prompt Injection Attacks in Large Language Models and {AI} Agent Systems: A Comprehensive Review of Vulnerabilities, Attack Vectors, and Defense Mechanisms},
+	volume = {17},
+	rights = {http://creativecommons.org/licenses/by/3.0/},
+	issn = {2078-2489},
+	url = {https://www.mdpi.com/2078-2489/17/1/54},
+	doi = {10.3390/info17010054},
+	shorttitle = {Prompt Injection Attacks in Large Language Models and {AI} Agent Systems},
+	abstract = {Large language models ({LLMs}) have rapidly transformed artificial intelligence applications across industries, yet their integration into production systems has unveiled critical security vulnerabilities, chief among them prompt injection attacks. This comprehensive review synthesizes research from 2023 to 2025, analyzing 45 key sources, industry security reports, and documented real-world exploits. We examine the taxonomy of prompt injection techniques, including direct jailbreaking and indirect injection through external content. The rise of {AI} agent systems and the Model Context Protocol ({MCP}) has dramatically expanded attack surfaces, introducing vulnerabilities such as tool poisoning and credential theft. We document critical incidents including {GitHub} Copilot’s {CVE}-2025-53773 remote code execution vulnerability ({CVSS} 9.6) and {ChatGPT}’s Windows license key exposure. Research demonstrates that just five carefully crafted documents can manipulate {AI} responses 90\% of the time through Retrieval-Augmented Generation ({RAG}) poisoning. We propose {PALADIN}, a defense-in-depth framework implementing five protective layers. This review provides actionable mitigation strategies based on {OWASP} Top 10 for {LLM} Applications 2025, identifies fundamental limitations including the stochastic nature problem and alignment paradox, and proposes research directions for architecturally secure {AI} systems. Our analysis reveals that prompt injection represents a fundamental architectural vulnerability requiring defense-in-depth approaches rather than singular solutions.},
+	pages = {54},
+	number = {1},
+	journaltitle = {Information},
+	publisher = {Multidisciplinary Digital Publishing Institute},
+	author = {Gulyamov, Saidakhror and Gulyamov, Said and Rodionov, Andrey and Khursanov, Rustam and Mekhmonov, Kambariddin and Babaev, Djakhongir and Rakhimjonov, Akmaljon},
+	urldate = {2026-04-15},
+	date = {2026-01},
+	langid = {english},
+	keywords = {{AI} agents, {AI} security, large language models, prompt injection, retrieval-augmented generation},
+}
+
+@article{ferrag_prompt_2026,
+	title = {From prompt injections to protocol exploits: Threats in {LLM}-powered {AI} agents workflows},
+	volume = {12},
+	issn = {2405-9595},
+	url = {https://www.sciencedirect.com/science/article/pii/S2405959525001997},
+	doi = {10.1016/j.icte.2025.12.001},
+	shorttitle = {From prompt injections to protocol exploits},
+	abstract = {Autonomous {AI} agents powered by large language models ({LLMs}) with structured function-calling interfaces have greatly expanded capabilities for real-time data retrieval, computation, and multi-step orchestration. However, the rapid growth of plugins, connectors, and inter-agent protocols has outpaced security practices, leading to brittle integrations — plugin {APIs} and protocol adapters that rely on ad-hoc authentication, inconsistent schemas, and weak validation — making them vulnerable to failures and exploitation. This survey introduces a unified end-to-end threat model for {LLM}-agent ecosystems, spanning host-to-tool and agent-to-agent communications, and catalogs over thirty attack techniques across Input Manipulation, Model Compromise, System and Privacy Attacks, and Protocol Vulnerabilities. For each category, we provide a formal mathematical formulation of the underlying threat model, defining attacker capabilities, objectives, and affected layers to enable systematic analysis. Representative examples include Prompt-to-{SQL} (P2SQL) injections and the Toxic Agent Flow exploit in {GitHub}’s {MCP} server. For each category, we assess feasibility, review defenses, and outline mitigation strategies such as dynamic trust management, cryptographic provenance tracking, and sandboxed agentic interfaces. The framework was validated through expert review and cross-mapping with real-world incidents and public vulnerability repositories (e.g., {CVE}, {NIST} {NVD}) to ensure practical relevance. Compared to prior surveys, this work provides the first integrated taxonomy bridging input-level exploits and protocol-layer vulnerabilities in {LLM}-agent ecosystems while introducing formal system definitions for each threat class. Ultimately, it offers actionable insights for securing next-generation {AI} agents through layered defense and continuous verification. Our work provides a comprehensive reference to guide the design of secure and resilient {LLM}-agent workflows.},
+	pages = {353--383},
+	number = {2},
+	journaltitle = {{ICT} Express},
+	shortjournal = {{ICT} Express},
+	author = {Ferrag, Mohamed Amine and Tihanyi, Norbert and Hamouda, Djallel and Maglaras, Leandros and Lakas, Abderrahmane and Debbah, Merouane},
+	urldate = {2026-04-15},
+	date = {2026-04-01},
+	keywords = {Agentic {AI}, Autonomous {AI} agents, Large language models, Reasoning, Security},
+}
+
+@article{mathew_enhancing_nodate,
+	title = {Enhancing Security in Large Language Models: A Comprehensive Review of Prompt Injection Attacks and Defenses},
+	volume = {2024},
+	url = {https://www.techrxiv.org/doi/full/10.36227/techrxiv.172954263.32914470/v1},
+	doi = {10.36227/techrxiv.172954263.32914470/v1},
+	shorttitle = {Enhancing Security in Large Language Models},
+	abstract = {This review paper explores advanced methods to prompt Large Language Models ({LLMs}) into generating objectionable or unintended behaviors through adversarial prompt injection attacks. We examine a series of novel projects like {HOUYI}, Robustly Aligned {LLM} ({RA}-{LLM}), {StruQ}, and Virtual Prompt Injection, that compel {LLMs} to produce affirmative responses to harmful queries. Additionally, the paper investigates the robustness of these attacks across different models and prompts. Several new benchmarks, such as {PromptBench}, {AdvBench}, {AttackEval}, {INJECAGENT}, and {RobustnessSuite}, have been created to evaluate the overall performance and resilience of {LLMs} against adversarial prompt injection attacks. Results show significant success rates in misleading models like Vicuna-7B, Llama-2-7B-Chat, {GPT}-3.5, and {GPT}-4. The review highlights limitations in existing defense mechanisms and proposes future directions for enhancing {LLM} alignment and safety mechanisms such as {LLM} {SELF} {DEFENSE}, Unlike previous studies, this paper provides a more comprehensive evaluation by integrating a broader range of attack methods and target models. Our study shows that there is a need for improved robustness in {LLMs}, which will potentially shape the future of {AI}-driven applications and security protocols.},
+	number = {1021},
+	journaltitle = {{TechRxiv}},
+	publisher = {{TechRxiv}},
+	author = {Mathew, Eleena},
+	urldate = {2026-04-15},
+}
+
+@online{benjamin_systematically_2024,
+	title = {Systematically Analyzing Prompt Injection Vulnerabilities in Diverse {LLM} Architectures},
+	url = {https://arxiv.org/abs/2410.23308v1},
+	abstract = {This study systematically analyzes the vulnerability of 36 large language models ({LLMs}) to various prompt injection attacks, a technique that leverages carefully crafted prompts to elicit malicious {LLM} behavior. Across 144 prompt injection tests, we observed a strong correlation between model parameters and vulnerability, with statistical analyses, such as logistic regression and random forest feature analysis, indicating that parameter size and architecture significantly influence susceptibility. Results revealed that 56 percent of tests led to successful prompt injections, emphasizing widespread vulnerability across various parameter sizes, with clustering analysis identifying distinct vulnerability profiles associated with specific model configurations. Additionally, our analysis uncovered correlations between certain prompt injection techniques, suggesting potential overlaps in vulnerabilities. These findings underscore the urgent need for robust, multi-layered defenses in {LLMs} deployed across critical infrastructure and sensitive industries. Successful prompt injection attacks could result in severe consequences, including data breaches, unauthorized access, or misinformation. Future research should explore multilingual and multi-step defenses alongside adaptive mitigation strategies to strengthen {LLM} security in diverse, real-world environments.},
+	titleaddon = {{arXiv}.org},
+	author = {Benjamin, Victoria and Braca, Emily and Carter, Israel and Kanchwala, Hafsa and Khojasteh, Nava and Landow, Charly and Luo, Yi and Ma, Caroline and Magarelli, Anna and Mirin, Rachel and Moyer, Avery and Simpson, Kayla and Skawinski, Amelia and Heverin, Thomas},
+	urldate = {2026-04-15},
+	date = {2024-10-28},
+	langid = {english},
+}
+
+@inproceedings{enomoto_fair_2025,
+	location = {Albuquerque, New Mexico},
+	title = {A Fair Comparison without Translationese: English vs. Target-language Instructions for Multilingual {LLMs}},
+	isbn = {979-8-89176-190-2},
+	url = {https://aclanthology.org/2025.naacl-short.55/},
+	doi = {10.18653/v1/2025.naacl-short.55},
+	shorttitle = {A Fair Comparison without Translationese},
+	abstract = {Most large language models are multilingual instruction executors. Prior studies suggested that English instructions are more effective than target-language instructions even for non-English tasks; however, these studies often use datasets and instructions translated from English, which introduce biases known as translationese, hindering an unbiased comparison. To address this issue, we conduct a fair comparison between English and target-language instructions by eliminating translationese effects. Contrary to previous studies, our experiments across several tasks reveal that the advantage of adopting English instructions is not overwhelming. Additionally, we report on the features of generated texts and the instruction-following abilities when using respective instructions.},
+	eventtitle = {{NAACL}-{HLT} 2025},
+	pages = {649--670},
+	booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)},
+	publisher = {Association for Computational Linguistics},
+	author = {Enomoto, Taisei and Kim, Hwichan and Chen, Zhousi and Komachi, Mamoru},
+	editor = {Chiruzzo, Luis and Ritter, Alan and Wang, Lu},
+	urldate = {2026-04-15},
+	date = {2025-04},
+}
+
+@article{ji_impact_2026,
+	title = {The Impact of Prompt Language and Representation on {LLM} Reasoning: A Multilingual Empirical Study},
+	volume = {14},
+	issn = {2169-3536},
+	url = {https://ieeexplore.ieee.org/document/11318327},
+	doi = {10.1109/ACCESS.2025.3649535},
+	shorttitle = {The Impact of Prompt Language and Representation on {LLM} Reasoning},
+	abstract = {Large language models ({LLMs}) have emerged as promising tools for automated vulnerability detection ({VD}), yet their effectiveness is strongly shaped by prompt design and input representation. Existing studies largely focus on detection accuracy, leaving open how factors such as prompt language, structural form, and code representation influence performance. We conduct a systematic empirical study on these dimensions by building a curated dataset from patched {NVD} vulnerabilities in C and C++ projects, annotated with vulnerable functions, lines, and types. Six representative {LLM} families: {GPT}, Claude, Gemini, Qwen, {LLaMA}, and {DeepSeek} are evaluated. Our experiments span three axes: 1) prompt languages (high-resource, low-resource); 2) prompt structures (sequential, structural, chain-of-thought, role-based); and 3) input representations (source code, code graphs). Results show that {VD} performance degrades significantly in low-resource languages, while structured prompts, especially chain-of-thought, improve interpretability and robustness. Furthermore, graph-based representations such as {PDGs} and {CPGs} enhance precision for vulnerabilities. These findings highlight the sensitivity of {LLMs} for vulnerability detection to prompt and representation choices.},
+	pages = {2249--2267},
+	journaltitle = {{IEEE} Access},
+	author = {Ji, Lina and Yao, Linghua and Xu, Wei and Min, Jie and Yuan, Li},
+	urldate = {2026-04-15},
+	date = {2026},
+	keywords = {Accuracy, Analytical models, Buffer overflows, code graph, Codes, Cognition, Data models, English, Large language models, {LLM}, prompt language, prompt structure, Semantics, Source coding, Systematics, Vulnerability detection},
+}
+
+@online{mondshine_beyond_2025,
+	title = {Beyond English: The Impact of Prompt Translation Strategies across Languages and Tasks in Multilingual {LLMs}},
+	url = {https://arxiv.org/abs/2502.09331v1},
+	shorttitle = {Beyond English},
+	abstract = {Despite advances in the multilingual capabilities of Large Language Models ({LLMs}) across diverse tasks, English remains the dominant language for {LLM} research and development. So, when working with a different language, this has led to the widespread practice of pre-translation, i.e., translating the task prompt into English before inference. Selective pre-translation, a more surgical approach, focuses on translating specific prompt components. However, its current use is sporagic and lacks a systematic research foundation. Consequently, the optimal pre-translation strategy for various multilingual settings and tasks remains unclear. In this work, we aim to uncover the optimal setup for pre-translation by systematically assessing its use. Specifically, we view the prompt as a modular entity, composed of four functional parts: instruction, context, examples, and output, either of which could be translated or not. We evaluate pre-translation strategies across 35 languages covering both low and high-resource languages, on various tasks including Question Answering ({QA}), Natural Language Inference ({NLI}), Named Entity Recognition ({NER}), and Abstractive Summarization. Our experiments show the impact of factors as similarity to English, translation quality and the size of pre-trained data, on the model performance with pre-translation. We suggest practical guidelines for choosing optimal strategies in various multilingual settings.},
+	titleaddon = {{arXiv}.org},
+	author = {Mondshine, Itai and Paz-Argaman, Tzuf and Tsarfaty, Reut},
+	urldate = {2026-04-15},
+	date = {2025-02-13},
+	langid = {english},
+}
+
+@online{wang_multilingual_2025,
+	title = {Multilingual Prompting for Improving {LLM} Generation Diversity},
+	url = {https://arxiv.org/abs/2505.15229v2},
+	abstract = {Large Language Models ({LLMs}) are known to lack cultural representation and overall diversity in their generations, from expressing opinions to answering factual questions. To mitigate this problem, we propose multilingual prompting: a prompting method which generates several variations of a base prompt with added cultural and linguistic cues from several cultures, generates responses, and then combines the results. Building on evidence that {LLMs} have language-specific knowledge, multilingual prompting seeks to increase diversity by activating a broader range of cultural knowledge embedded in model training data. Through experiments across multiple models ({GPT}-4o, {GPT}-4o-mini, {LLaMA} 70B, and {LLaMA} 8B), we show that multilingual prompting consistently outperforms existing diversity-enhancing techniques such as high-temperature sampling, step-by-step recall, and persona prompting. Further analyses show that the benefits of multilingual prompting vary between high and low resource languages and across model sizes, and that aligning the prompting language with cultural cues reduces hallucination about culturally-specific information.},
+	titleaddon = {{arXiv}.org},
+	author = {Wang, Qihan and Pan, Shidong and Linzen, Tal and Black, Emily},
+	urldate = {2026-04-15},
+	date = {2025-05-21},
+	langid = {english},
+}
+
+@online{vatsal_multilingual_2025,
+	title = {Multilingual Prompt Engineering in Large Language Models: A Survey Across {NLP} Tasks},
+	url = {https://arxiv.org/abs/2505.11665v1},
+	shorttitle = {Multilingual Prompt Engineering in Large Language Models},
+	abstract = {Large language models ({LLMs}) have demonstrated impressive performance across a wide range of Natural Language Processing ({NLP}) tasks. However, ensuring their effectiveness across multiple languages presents unique challenges. Multilingual prompt engineering has emerged as a key approach to enhance {LLMs}' capabilities in diverse linguistic settings without requiring extensive parameter re-training or fine-tuning. With growing interest in multilingual prompt engineering over the past two to three years, researchers have explored various strategies to improve {LLMs}' performance across languages and {NLP} tasks. By crafting structured natural language prompts, researchers have successfully extracted knowledge from {LLMs} across different languages, making these techniques an accessible pathway for a broader audience, including those without deep expertise in machine learning, to harness the capabilities of {LLMs}. In this paper, we survey and categorize different multilingual prompting techniques based on the {NLP} tasks they address across a diverse set of datasets that collectively span around 250 languages. We further highlight the {LLMs} employed, present a taxonomy of approaches and discuss potential state-of-the-art ({SoTA}) methods for specific multilingual datasets. Additionally, we derive a range of insights across language families and resource levels (high-resource vs. low-resource), including analyses such as the distribution of {NLP} tasks by language resource type and the frequency of prompting methods across different language families. Our survey reviews 36 research papers covering 39 prompting techniques applied to 30 multilingual {NLP} tasks, with the majority of these studies published in the last two years.},
+	titleaddon = {{arXiv}.org},
+	author = {Vatsal, Shubham and Dubey, Harsh and Singh, Aditi},
+	urldate = {2026-04-15},
+	date = {2025-05-16},
+	langid = {english},
+}
+
+
+@online{lassosecurity2026standardization,
+  author = {Lasso Security},
+  title = {A Standardization Guide to Prompt Injection: Text-Based Techniques vs Intent},
+  date = {2026-02-15},
+  url = {https://www.lasso.security/blog/prompt-injection-taxonomy-techniques},
+  urldate = {2026-04-15}
+}
+
+@online{emergentmind2026promptinjection,
+  author = {Emergent Mind},
+  title = {Prompt Injection Datasets},
+  date = {2026-01-31},
+  url = {https://www.emergentmind.com/topics/prompt-injection-datasets},
+  urldate = {2026-04-15}
+}
+
+@online{vectraai2026promptinjection,
+  author = {Vectra AI},
+  title = {Prompt injection explained: the top AI security threat enterprises cannot ignore},
+  date = {2026},
+  url = {https://www.vectra.ai/topics/prompt-injection},
+  urldate = {2026-05-04}
+}
+
+@online{nvidia2026nemoguardrails,
+  author = {Nvidia},
+  title = {NVIDIA-NeMo/Guardrails},
+  date = {2026-04-27},
+  url = {https://github.com/NVIDIA-NeMo/Guardrails},
+  urldate = {2026-05-04}
+}
+
+@online{lsdgds2026guardrails,
+  author = {LTS Global Digital Services},
+  title = {Guide to LLM Guardrails for Safer AI},
+  date = {2026},
+  url = {https://www.gdsonline.tech/llm-guardrails/},
+  urldate = {2026-05-04}
+}
